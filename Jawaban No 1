@@ -10,7 +10,7 @@ function myBiodata(biodata){
       "highschool": 'SMK Nasional Al-Huda',
       "year_in": '2015',
       "year_out": '2017',
-     "Major": 'null',
+     "Major": 'Teknik Komputer Jaringan',
     },
     "skill_name": [
       {    
