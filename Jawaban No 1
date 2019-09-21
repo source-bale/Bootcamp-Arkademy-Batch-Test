@@ -5,7 +5,7 @@ function getProfile() {
     address: 'Desa Kubang Jaya Blok B1 No 7, Pekanbaru',
     hobbies: ['Mancing', 'Fotografi'] //Array,
     is_married: false //Boolean,
-    interest|_in_coding: true //Boolean,
+    interest_in_coding: true //Boolean,
     list_school: {
       highSchool: 'SMK Nasional Al-Huda',
       year_in: 2015
