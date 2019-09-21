@@ -16,7 +16,7 @@ function getProfile() {
       skill_name: 'Javascript',
       level: beginner
     },{
-      name: 'Adobe Photoshop Lightroom',
+      skill_name: 'Adobe Photoshop Lightroom',
       level: beginner
     }] // Array Of Object
     
