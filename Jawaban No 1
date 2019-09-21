@@ -1,24 +1,28 @@
-function getProfile() {
-  return {
-    name: 'Muhammad Iqbal',
-    age: '20',
-    address: 'Desa Kubang Jaya Blok B1 No 7, Pekanbaru',
-    hobbies: ['Mancing', 'Fotografi'] //Array,
-    is_married: false //Boolean,
-    interest_in_coding: true //Boolean,
-    list_school: {
-      highSchool: 'SMK Nasional Al-Huda',
-      year_in: 2015
-      year_out: 2017
-      major: "null"
-    }, // Object
-    skills: [{
-      skill_name: 'Javascript',
-      level: beginner
-    },{
-      skill_name: 'Adobe Photoshop Lightroom',
-      level: beginner
-    }] // Array Of Object
-    
+function myBiodata(biodata){
+  let biodataObj = {
+    "name": 'Muhammad Iqbal',
+    "address": 'Desa Kubang Jaya, Pekanbaru',
+    "hobbies": [
+      'Fotografi', 'Travelling', 'Gaming', 'Fishing' 
+    ],
+    "is_married": false,
+    "list_school": {
+      "highschool": 'SMK Nasional Al-Huda',
+      "year_in": '2015',
+      "year_out": '2017',
+     "Major": 'null',
+    },
+    "skill_name": [
+      {    
+        "Adobe Photoshop Lightroom": "advanced",
+        "Javascript": "beginner",
+        "GIT": "beginner",
+        "Android Studio": "beginner",
+      },
+     { "interesting_in_coding": true, }
+    ]
   }
+
+  return biodataObj
 }
+console.log(myBiodata('iqbal'));
