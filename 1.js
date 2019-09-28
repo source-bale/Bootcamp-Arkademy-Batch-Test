@@ -10,13 +10,13 @@ function myBiodata(biodata){
       "highschool": 'SMK Nasional Al-Huda',
       "year_in": '2015',
       "year_out": '2017',
-     "Major": 'Teknik Komputer Jaringan',
+     "major": 'Teknik Komputer Jaringan',
     },
     "skill_name": [
       {    
         "Adobe Photoshop Lightroom": "advanced",
         "Javascript": "beginner",
-        "GIT": "beginner",
+        "HTML": "beginner",
         "Android Studio": "beginner",
       },
      { "interesting_in_coding": true, }
